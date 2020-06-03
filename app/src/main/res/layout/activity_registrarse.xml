@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registrarse">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:gravity="center_horizontal"
+        android:paddingLeft="@dimen/small_padding"
+        android:paddingRight="@dimen/small_padding"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="156dp"
+            android:src="@drawable/logonegro"></ImageView>
+
+        <EditText
+            android:id="@+id/etEmailReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_padding"
+            android:hint="@string/registro_correo_hint"
+            android:inputType="textEmailAddress"></EditText>
+
+        <EditText
+            android:id="@+id/etNameReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_padding"
+            android:hint="@string/registro_name_hint"
+            android:inputType="textEmailAddress"></EditText>
+
+        <EditText
+            android:id="@+id/etUserReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_padding"
+            android:hint="@string/registro_username_hint"
+            android:inputType="textEmailAddress"></EditText>
+
+        <EditText
+            android:id="@+id/etPassReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_padding"
+            android:hint="@string/registro_pass_hint"
+            android:inputType="textPassword"></EditText>
+
+        <EditText
+            android:id="@+id/etPassCheckReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_padding"
+            android:hint="@string/registro_pass_check_hint"
+            android:inputType="textPassword"></EditText>
+
+        <Button
+            android:id="@+id/btnRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_padding"
+            android:background="#00FFFFFF"
+            android:hint="@string/registro_btn"
+            android:textSize="18sp"
+            android:textStyle="bold"></Button>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="@dimen/big_padding"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/small_padding"
+                android:text="@string/registro_registro_pregunta"
+                android:textSize="16sp"></TextView>
+
+            <TextView
+                android:id="@+id/tvLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="@string/registro_login"
+                android:textSize="16sp"
+                android:textStyle="bold"></TextView>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

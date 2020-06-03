@@ -1,3 +1,32 @@
 <resources>
     <string name="app_name">LessWaste</string>
+    <string name="title_activity_less">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="login_pass_hint">Password</string>
+    <string name="login_user_hint">Email</string>
+    <string name="login_btn">Login</string>
+    <string name="login_registro_pregunta">¿No tienes cuenta?</string>
+    <string name="login_registro">Registrate</string>
+    <string name="registro_btn">Registrar</string>
+    <string name="registro_registro_pregunta">¿Ya tienes cuenta?</string>
+    <string name="registro_login">Login</string>
+    <string name="registro_pass_check_hint">Repetir password</string>
+    <string name="registro_pass_hint">Password</string>
+    <string name="registro_username_hint">Usuario</string>
+    <string name="registro_name_hint">Nombre</string>
+    <string name="registro_correo_hint">Email</string>
+    <string name="ph_username">ph_username</string>
+    <string name="ph_n_likes">n_likes</string>
+    <string name="ph_short_lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet suscipit neque. Maecenas finibus odio sed leo rutrum, eget efficitur lorem eleifend. Suspendisse rutrum cursus mauris,</string>
+    <string name="ph_subtitle_user">User subtitle</string>
+    <string name="ph_title_username">Username</string>
+    <string name="ph_btn_seguir">Seguir</string>
+    <string name="ph_btn_noseguir">Dejar de seguir</string>
+    <string name="ph_uc_esperalo">Esperalo...</string>
+    <string name="ph_uc_px">Proximamente más funciones</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="agregar">Agregar</string>
+    <string name="ph_titulo_receta">Titulo de receta</string>
 </resources>

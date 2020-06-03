@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/postD_img_userPhoto"
+        style="@style/icon"
+        android:src="@drawable/ph_user_img"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/postD_txt_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ph_username"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@id/postD_img_userPhoto"
+        app:layout_constraintTop_toTopOf="@+id/postD_img_userPhoto"
+        app:layout_constraintBottom_toBottomOf="@+id/postD_img_userPhoto" />
+
+    <ImageView
+        android:id="@+id/postD_btn_options"
+        style="@style/icon"
+        android:src="@drawable/ic_opt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/postD_img_userPhoto"
+        app:layout_constraintBottom_toBottomOf="@+id/postD_img_userPhoto" />
+
+    <ImageView
+        android:id="@+id/postD_img_photo"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ph_home_post"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/postD_img_userPhoto" />
+
+    <ImageView
+        android:id="@+id/postD_btn_like"
+        style="@style/icon"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:padding="10dp"
+        android:src="@drawable/ic_nolike"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/postD_img_photo" />
+
+    <ImageView
+        android:id="@+id/postD_btn_comment"
+        app:layout_constraintStart_toEndOf="@id/postD_btn_like"
+        app:layout_constraintTop_toTopOf="@id/postD_btn_like"
+        app:layout_constraintBottom_toBottomOf="@+id/postD_btn_like"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:padding="10dp"
+        android:src="@drawable/ic_comment"
+        style="@style/icon" />
+
+    <ImageView
+        android:id="@+id/postD_btn_save"
+        style="@style/icon"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="10dp"
+        android:padding="10dp"
+        android:src="@drawable/ic_nosave"
+        app:layout_constraintBottom_toBottomOf="@+id/postD_btn_like"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/postD_btn_like" />
+
+    <TextView
+        android:id="@+id/postD_txt_likes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="2dp"
+        android:text="@string/ph_n_likes"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/postD_txt_title" />
+
+    <TextView
+        android:id="@+id/postD_txt_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/ph_titulo_receta"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/postD_btn_like" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
