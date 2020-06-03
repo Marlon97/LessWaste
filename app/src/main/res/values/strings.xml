@@ -24,8 +24,8 @@
     <string name="ph_title_username">Username</string>
     <string name="ph_btn_seguir">Seguir</string>
     <string name="ph_btn_noseguir">Dejar de seguir</string>
-    <string name="ph_uc_esperalo">Esperalo...</string>
-    <string name="ph_uc_px">Proximamente más funciones</string>
+    <string name="ph_uc_esperalo">Espéralo...</string>
+    <string name="ph_uc_px">Próximamente más funciones</string>
     <string name="cancelar">Cancelar</string>
     <string name="agregar">Agregar</string>
     <string name="ph_titulo_receta">Titulo de receta</string>
