@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "465242352038",
+    "firebase_url": "https://lesswaste-28106.firebaseio.com",
+    "project_id": "lesswaste-28106",
+    "storage_bucket": "lesswaste-28106.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465242352038:android:2cae520b6b8e07748d4767",
+        "android_client_info": {
+          "package_name": "com.mbvp.lesswaste"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465242352038-m931rlhrfan2ueqg2k5khbojoa0v72ln.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mbvp.lesswaste",
+            "certificate_hash": "5ea6d8353b0891c38d2613345996c99e1f345250"
+          }
+        },
+        {
+          "client_id": "465242352038-i0ngdhceuuqv5krl6aktc7ga029fua3n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5B0-mGe391vVGlb3IvHst9xAN5ad5pAY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465242352038-i0ngdhceuuqv5krl6aktc7ga029fua3n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "465242352038-qi7ublmgemc2h2oh321vadle2amr4s6e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hd170998.LessWaste"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

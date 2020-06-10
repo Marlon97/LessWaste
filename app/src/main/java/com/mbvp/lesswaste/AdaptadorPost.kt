@@ -27,7 +27,7 @@ class AdaptadorPost(private val contexto: Context, var arrPosts: Array<PostModel
     override fun onBindViewHolder(holder: HomePost, position: Int) {
         val post = arrPosts[position] //arrPaises.get(position)
         holder.vistaPost.postD_txt_title.text = post.caption
-        holder.vistaPost.postD_txt_likes.text = post.likes.toString()
+        holder.vistaPost.postD_txt_likes.text = post.likes.toString()+" likes"
         holder.vistaPost.postD_txt_username.text = post.caption
         Glide.with(holder.itemView.context).load(post.imageUrl).into(holder.vistaPost.postD_img_photo)
         //EVENTO

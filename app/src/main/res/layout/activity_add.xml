@@ -32,7 +32,7 @@
         android:layout_height="150dp"
         android:layout_margin="10dp"
         android:layout_marginTop="16dp"
-        android:src="@drawable/ph_home_post"
+        android:src="@drawable/ft_comida_base"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"

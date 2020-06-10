@@ -28,7 +28,7 @@ class Registrarse : AppCompatActivity() {
             val name = etNameReg.text.toString()
             val user = etUserReg.text.toString()
             val pass = etPassReg.text.toString()
-            val imageUrl = "https://firebasestorage.googleapis.com/v0/b/lesswaste-28106.appspot.com/o/post_images%2F611F5FD9-805C-46B7-A685-545B05E81B49?alt=media&token=4484f0c8-46de-4591-84cc-ff9791b01935"
+            val imageUrl = "https://firebasestorage.googleapis.com/v0/b/lesswaste-28106.appspot.com/o/profile_images%2F869C3225-63B1-4C40-AAC9-66F9E3945520?alt=media&token=904bfc5c-61bb-4fc8-a71a-20dec8866b81"
             val passConf = etPassCheckReg.text.toString()
             if (validateData(email,name,user,pass,passConf)){
                 if(validatePass(pass,passConf)){

@@ -29,4 +29,11 @@
     <string name="cancelar">Cancelar</string>
     <string name="agregar">Agregar</string>
     <string name="ph_titulo_receta">Titulo de receta</string>
+    <string name="seguir">Seguir</string>
+    <string name="follow">follow</string>
+    <string name="posts">posts</string>
+    <string name="_0">0</string>
+    <string name="seguidores">seguidores</string>
+    <string name="siguiendo">siguiendo</string>
+    <string name="nombre">nombre</string>
 </resources>
